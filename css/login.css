@@ -1,0 +1,94 @@
+/* -------------- Titilium Web FONTS -------------- */
+@font-face{
+	src: url("../fonts/TitilliumWeb-Regular.ttf");
+	font-family: Regular;
+}
+@font-face{
+	src: url("../fonts/TitilliumWeb-Bold.ttf");
+	font-family: TitiliumBold;
+}
+@font-face{
+	src: url("../fonts/TitilliumWeb-Light.ttf");
+	font-family: light;
+}
+@font-face{
+	src: url("../fonts/TitilliumWeb-SemiBold.ttf");
+	font-family: SemiBold;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #4e71b3;
+height: fit-content;
+}
+/* -------------- HEADER -------------- */
+header{
+    width: fit-content;
+    height: fit-content;
+    margin: 2% auto;
+}
+header img{
+    width: 20%;
+    margin-left: 40%;
+}
+
+.login-container{
+    width: 60%;
+    height: 56%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.747);
+    border-radius: 50px 20px;
+    box-shadow: 2px 2px 2px #222;
+    padding: 2% 0;
+}
+form input{
+    width:60%;
+    height: 28px;
+    margin: 2% 20%;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: light;
+}
+.login-container h3 {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    font-family: TitiliumBold;
+    color :#24385d;
+}
+.login-container hr{
+    width: 80%;
+    height: 2px;
+    margin: 2% auto;
+    color: #24385d;
+}
+#login_btn{
+    background-color: #24385d;
+    border-color: #24385d;
+    color: #fff;
+    height: 30px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+#login_btn:hover{
+    background-color: #fff;
+    color: #24385d;
+}
+.login-container p{
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 20px;
+}
+.login-container span{
+    color: #24385d;
+    cursor: pointer;
+}
+@media (max-width: 750px){
+    .login-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
